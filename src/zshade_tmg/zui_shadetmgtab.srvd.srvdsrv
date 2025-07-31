@@ -1,0 +1,5 @@
+@ObjectModel.leadingEntity.name: 'ZI_ShadeTmgTab_S'
+define service ZUI_SHADETMGTAB {
+  expose ZI_SHADETMGTAB_S as ShadeTmgTabAll;
+  expose ZI_SHADETMGTAB as ShadeTmgTab;
+}

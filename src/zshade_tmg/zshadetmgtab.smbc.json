@@ -1,0 +1,39 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Maintain Shade tmg tab",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "serviceConfiguration": {
+    "serviceBinding": "ZUI_SHADETMGTAB_O4",
+    "serviceName": "ZUI_SHADETMGTAB_O4",
+    "serviceVersion": "0001",
+    "rootEntitySet": "ShadeTmgTabAll",
+    "name": "Shade tmg tab",
+    "configurationGroup": "",
+    "skipRootEntity": true
+  },
+  "appConfiguration": {
+    "listReport": {},
+    "objectPages": [
+      {
+        "entitySet": "ShadeTmgTabAll",
+        "variantManagement": "control",
+        "showTransportSelectionStrip": true
+      }
+    ],
+    "tableSettings": [
+      {
+        "entitySet": "ShadeTmgTab",
+        "tableType": "gridTable",
+        "selectAll": true,
+        "rowCountMode": "auto",
+        "frozenColumnCount": 2,
+        "creationModeName": "inlineCreationRows",
+        "createAtEnd": true,
+        "widthIncludingColumnHeader": true
+      }
+    ]
+  }
+}

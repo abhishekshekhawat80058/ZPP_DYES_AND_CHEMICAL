@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Maintain Tmg For Process Issue Slip Master Table",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "serviceConfiguration": {
+    "serviceBinding": "ZUI_TMGFORPROCESSISSUES_O4",
+    "serviceName": "ZUI_TMGFORPROCESSISSUES_O4",
+    "serviceVersion": "0001",
+    "rootEntitySet": "TmgForProcessIssAll",
+    "name": "Tmg For Process Issue Slip Master Table",
+    "configurationGroup": "",
+    "skipRootEntity": true
+  },
+  "appConfiguration": {
+    "listReport": {},
+    "objectPages": [
+      {
+        "entitySet": "TmgForProcessIssAll",
+        "variantManagement": "control",
+        "showTransportSelectionStrip": true
+      }
+    ],
+    "tableSettings": [
+      {
+        "entitySet": "TmgForProcessIssueS",
+        "tableType": "gridTable",
+        "selectionMode": "auto",
+        "rowCountMode": "auto",
+        "frozenColumnCount": 5,
+        "creationModeName": "creationRow",
+        "widthIncludingColumnHeader": true
+      }
+    ]
+  }
+}

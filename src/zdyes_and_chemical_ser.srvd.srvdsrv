@@ -1,0 +1,21 @@
+@EndUserText.label: 'ZPP_DYES_AND_CHEMICAL service'
+define service ZDYES_AND_CHEMICAL_ser {
+  expose I_Plant                    as plant;
+  expose I_StorageLocation          as storage_location;
+  expose zbeam_creation_f4_cds      as beam_data;
+  expose ZDYES_AND_CHEMICAL_TEMP_F4 as Dyes_and_che_temf4;
+  expose ZBOM_COMPONENT_DATA        as ComponentData;
+  expose ZPROCESS_NAMEF4            as ProcessNameF4;
+  expose ZSLIP_type_f4              as machingroupf4;
+  expose zmachine_f4_cds            as machinef4;
+  expose ZMachine_name              as Machine_name;
+  expose ZMETHOD_F4                 as Methodf4;
+  expose ZDYES_AND_CHEM_SLIP_NO     as SlipNoF4;
+  expose ZDYES_AND_CHE_CHANGEDATA   as DyesandCheTab1;
+  expose ZDYES_AND_CHE2_CHANGE_DATA as DyesandCheTab2;
+  expose ZPP_MATERIAL_F4            as MaterialF4;
+  expose ZPP_BEAM_NOCHECK           as Beamnocheck;
+  expose ZLEBDIP_DATA               as LebDipData;
+  expose ZSHADE_TMG_DATA            as shade_data;
+  expose ZPP_BEAM_PARTYF4           as BeamPartyF4;
+}

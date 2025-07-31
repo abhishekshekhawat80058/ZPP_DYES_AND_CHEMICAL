@@ -1,0 +1,52 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'ShadeTmgTab', 
+    typeNamePlural: 'ShadeTmgTabs', 
+    title: {
+      type: #STANDARD, 
+      label: 'Shade tmg tab', 
+      value: 'Plant'
+    }
+  }
+}
+annotate view ZI_ShadeTmgTab with
+{
+  @UI.identification: [ {
+    position: 1 , 
+    label: 'Plant'
+  } ]
+  @UI.lineItem: [ {
+    position: 1 , 
+    label: 'Plant'
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_ShadeTmgTab', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'Shade tmg tab', 
+    position: 1 
+  } ]
+  Plant;
+  
+  @UI.identification: [ {
+    position: 2 , 
+    label: 'Department'
+  } ]
+  @UI.lineItem: [ {
+    position: 2 , 
+    label: 'Department'
+    
+  } ]
+  Department;
+  
+  @UI.identification: [ {
+    position: 3 , 
+    label: 'Shade'
+  } ]
+  @UI.lineItem: [ {
+    position: 3 , 
+    label: 'Shade'
+  } ]
+  Shade;
+}

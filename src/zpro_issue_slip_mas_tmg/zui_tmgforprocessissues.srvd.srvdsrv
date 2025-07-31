@@ -1,0 +1,5 @@
+@ObjectModel.leadingEntity.name: 'ZI_TmgForProcessIssueS_S'
+define service ZUI_TMGFORPROCESSISSUES {
+  expose ZI_TMGFORPROCESSISSUES_S as TmgForProcessIssAll;
+  expose ZI_TMGFORPROCESSISSUES as TmgForProcessIssueS;
+}

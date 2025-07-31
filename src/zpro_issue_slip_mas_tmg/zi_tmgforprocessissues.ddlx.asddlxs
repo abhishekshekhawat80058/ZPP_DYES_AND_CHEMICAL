@@ -1,0 +1,83 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'TmgForProcessIssueS', 
+    typeNamePlural: 'TmgForProcessIssueSs', 
+    title: {
+      type: #STANDARD, 
+      label: 'Tmg For Process Issue Slip Master Table', 
+      value: 'Machinegroup'
+    }
+  }
+}
+annotate view ZI_TmgForProcessIssueS with
+{
+  @UI.identification: [ {
+    position: 1,
+    label: 'Machinegroup' 
+  } ]
+  @UI.lineItem: [ {
+    position: 1 ,
+    label: 'Machinegroup'
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_TmgForProcessIssueS', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'Tmg For Process Issue Slip Master Table', 
+    position: 1 
+    
+  } ]
+  Machinegroup;
+  
+  @UI.identification: [ {
+    position: 2 ,
+    label: 'ProcessName'
+  } ]
+  @UI.lineItem: [ {
+    position: 2,
+    label: 'ProcessName' 
+  } ]
+  ProcessName;
+  
+  @UI.identification: [ {
+    position: 3 ,
+    label: 'Mathod'
+    
+  } ]
+  @UI.lineItem: [ {
+    position: 3, 
+    label: 'Mathod'
+  } ]
+  Mathod;
+  
+  @UI.identification: [ {
+     position: 4 ,
+    label: 'Plant' 
+  } ]
+  @UI.lineItem: [ {
+    position: 4 ,
+    label: 'Plant'
+  } ]
+  Plant;
+  
+  @UI.identification: [ {
+    position: 5 ,
+    label: 'MachineName'
+  } ]
+  @UI.lineItem: [ {
+    position: 5 ,
+    label: 'MachineName'
+  } ]
+  MachineName;
+  
+  @UI.identification: [ {
+    position: 6 , 
+    label: 'Mandi'
+  } ]
+  @UI.lineItem: [ {
+    position: 6 , 
+    label: 'Mandi'
+  } ]
+  Mandi;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'DYES_CHEMICAL F4'
+define service ZDYES_CHEMICAL_PRINT_DEF {
+  expose ZDYES_F4;
+}

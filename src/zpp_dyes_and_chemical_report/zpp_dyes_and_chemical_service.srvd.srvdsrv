@@ -1,0 +1,4 @@
+@EndUserText.label: 'DYES_AND_CHEMICAL_service'
+define service ZPP_DYES_AND_CHEMICAL_service {
+  expose ZPP_DYES_AND_CHEMICAL_REPORT;
+}

@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Dyes And Chemical Issue Creation Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "zdyeschemicalprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_5448C98B1062E31746448B25D6D9F0A2C96827E7_TM",
+    "semanticObject": "z_dyes_chemical_print",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_5448C98B1062E31746448B25D6D9F0A2C96827E7_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Dyes And Chemical Issue Creation Print",
+        "subtitle": "PP"
+      }
+    }
+  ]
+}

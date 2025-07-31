@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Dyes and Chemical Issue Slip Creation",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "zdyeschemicalslip"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_378530D33AAC95A1CDB9E13C879A88CF382AE2C2_TM",
+    "semanticObject": "zdyes_chemical_slip",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_378530D33AAC95A1CDB9E13C879A88CF382AE2C2_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Dyes and Chemical Issue Slip Creation",
+        "subtitle": "PP"
+      }
+    }
+  ]
+}
